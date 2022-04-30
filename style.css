@@ -15,32 +15,29 @@ body {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  width: 375px;
+  width: 300px;
   max-width: 100%;
   text-align: center;
-  border-radius: 15px;
-  padding: 0.8rem;
+  border-radius: 20px;
+  padding: 0.9rem;
+  padding-bottom: 0;
   box-shadow: -1em 1em 3em rgba(0, 0, 0, 0.1), 1em 1em 3em rgba(0, 0, 0, 0.1);
 }
 
 .barcode {
-  /* margin-top: 0.5rem; */
-  width: 350px;
+  width: 290px;
   max-width: 100%;
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 0;
-  margin-top: 0.8rem;
+  margin-top: 0.3rem;
   display: flex;
-}
-
-.text-container {
-  padding: 0 2rem;
 }
 
 .text-container h1 {
   font-size: 1.5rem;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
+  /* padding: 1rem; */
 }
 
 .text-container p {
